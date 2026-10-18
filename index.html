@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gen PvP 2202</title>
+<meta name="description" content="Gen PvP 2202 のホームページ。Generator PvP、PvP鯖、SMPなどを制作しています。統合版マルチ。">
+<style>
+  :root {
+    --bg1: #141c46;
+    --bg2: #962032;
+    --card: rgba(10, 14, 40, 0.72);
+    --line: #78beff;
+    --text: #f2f5ff;
+    --sub: #b9c6ee;
+    --accent: #ffd54a;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+    color: var(--text);
+    line-height: 1.8;
+    background: linear-gradient(135deg, var(--bg1), var(--bg2)) fixed;
+  }
+  header {
+    text-align: center;
+    padding: 64px 20px 32px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: clamp(2.2rem, 8vw, 4rem);
+    letter-spacing: 0.04em;
+    text-shadow: 3px 4px 0 rgba(0, 0, 0, 0.45);
+  }
+  header p {
+    margin: 12px 0 0;
+    color: var(--sub);
+    font-size: 1.05rem;
+  }
+  main {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 16px 56px;
+  }
+  section {
+    background: var(--card);
+    border: 3px solid var(--line);
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin-top: 22px;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.35);
+  }
+  h2 {
+    margin: 0 0 12px;
+    font-size: 1.35rem;
+    color: var(--accent);
+  }
+  ul { margin: 8px 0 0; padding-left: 1.3em; }
+  li { margin: 4px 0; }
+  .tag {
+    display: inline-block;
+    background: var(--accent);
+    color: #1a1a2e;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 2px 12px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 6px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid rgba(120, 190, 255, 0.35);
+  }
+  th { width: 38%; color: var(--sub); font-weight: 600; }
+  .note { color: var(--sub); font-size: 0.92rem; margin: 10px 0 0; }
+  a.button {
+    display: inline-block;
+    margin-top: 10px;
+    background: var(--line);
+    color: #0c1230;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 10px;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.4);
+    transition: transform 0.1s;
+  }
+  a.button:hover { transform: translateY(2px); }
+  a.button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  footer {
+    text-align: center;
+    color: var(--sub);
+    font-size: 0.9rem;
+    padding: 0 16px 40px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Gen PvP 2202</h1>
+  <p>Minecraft 統合版でサーバーとアドオンを作っています</p>
+</header>
+
+<main>
+  <section id="about">
+    <h2>自己紹介</h2>
+    <p>ゲーマータグ: <span class="tag">Gen PvP 2202</span></p>
+    <p>メインサーバー <strong>Generator PvP</strong>、PvP鯖、SMPなどを制作しています。よかったら遊びに来てください!</p>
+    <p>基本は<strong>統合版マルチ</strong>で活動しています。</p>
+  </section>
+
+  <section id="servers">
+    <h2>制作しているサーバー</h2>
+    <ul>
+      <li><strong>Generator PvP</strong>(メインサーバー)</li>
+      <li>PvP鯖</li>
+      <li>SMP</li>
+    </ul>
+  </section>
+
+  <section id="time">
+    <h2>だいたいやっている時間帯</h2>
+    <table>
+      <tr><th>祝日</th><td>午前10時 〜 午後9時半ごろ</td></tr>
+      <tr><th>平日</th><td>午後7時 〜 9時前後</td></tr>
+    </table>
+    <p class="note">家庭の都合で、この時間からずれることが多いです。</p>
+  </section>
+
+  <section id="addon">
+    <h2>アドオン配布</h2>
+    <p>作ったアドオンは「クラフターズコロニー」で配布しています。</p>
+    <a class="button" href="https://minecraft-mcworld.com/category/be/add-on" target="_blank" rel="noopener noreferrer">アドオン一覧を見る</a>
+  </section>
+</main>
+
+<footer>
+  &copy; Gen PvP 2202
+</footer>
+
+</body>
+</html>
